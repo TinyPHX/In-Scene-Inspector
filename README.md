@@ -11,7 +11,8 @@ In Scene Inspector is curently in beta. The [unitypackage can be download here](
 Once your download is complete you should have a file named in-scene-inspector-v#.unitypackage. This can then be imported into Unity:
 1. From the unity top menu select "Assets" > "Import Package" > "Custom Package..."
 2. Find the ".unitypackage" file and click open once selected
-3. Confirm that the folder "In Scene Inspector" has been added directly under your Unity "Asset" folder.
+3. In the "Import Unity Package" window ensure that all the assets are checked and  click "Import."
+4. Confirm that the folder "In Scene Inspector" has been added directly under your Unity "Asset" folder.
 
 ## Usage
 
