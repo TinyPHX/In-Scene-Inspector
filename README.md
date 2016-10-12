@@ -27,7 +27,7 @@ Once you've got everything downloaded and installed you should have the followin
 
 ### Using Prefabs
 
-There are 2 prefabs included in the "Prefabs" folder.
+There are 2 prefabs included in the "Prefabs" folder:
 
 * In Scene Inspector - All in one solution including UI canvas, event system, and Inspector Panel.
 * Inspector Panel - The panel only. This is the core and all that is required for full functionality. 
@@ -64,16 +64,23 @@ In the custom Unity Editor for ISI you have the following settings that can be c
 
 To create a restricted build to send to a tester you can:
 
-1. Set the "Default Object" in the Unity Editor
-2. Set the "Default Component" in the Unity Editor
+1. Set the "Default Object" in the Unity Editor.
+2. Set the "Default Component" in the Unity Editor.
 3. Find the game object "Select Object Button" under Inspector Panel and delete it.
 4. Find the game object "Select Component Button" under Inspector Panel and delete it.
 
 That will result in a build that gives users access to change only accessible members in the selected component. 
 
+### Scripts
+
+* DropDownList.cd - Fucusing and contents functionality included in select object and component drop down lists.
+* InSceneInspector.cd - Core inspection functionality.
+* InSceneInspectorEditor.cd - Custome Unity Editor formatting.  
+* ScrollRect2.cd - Extention to UnityEngine.UI.ScrollRect with the added functionality of saving scroll position when the scroll rect height changes.
+
 ## Contributing
 
-Not an open source project. If you have access to the repository this is the standard process to submit a contribution for review.
+ISI is not an open source project. If you have access to the repository this is the standard process to submit a contribution for review.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
