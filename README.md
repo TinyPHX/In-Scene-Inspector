@@ -4,7 +4,7 @@ Unity Asset for Editing Scenes from withing the Scene.
 
 ## Download
 
-In Scene Inspector is curently in beta. The [unitypackage can be download here](http://tinyphoenixgames.com/sites/default/files/forum_topic_attachments/in-scene-inspector-v0.0.5b_0.unitypackage).
+In Scene Inspector is curently in beta. The [unitypackage can be download here](http://tinyphoenixgames.com/development-tool/scene-inspector). Or you can get it from this repo.
 
 ## Installation
 
