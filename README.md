@@ -58,6 +58,7 @@ In the custom Unity Editor for ISI you have the following settings that can be c
 * Default Object - Object to be selected by default when the project starts
 * Default Component - Component to be selected by default when the project starts
 * Height - The height of the inspector panel.
+* Hide - Toggls the visibility and interatablility of all ISI components.
 * Use Custom Inspector - Unchecking this allows you to have full control over all of the accessible parameters of ISI. 
 
 ### Creating a User Test Build
@@ -73,10 +74,11 @@ That will result in a build that gives users access to change only accessible me
 
 ### Scripts
 
-* DropDownList.cd - Fucusing and contents functionality included in select object and component drop down lists.
-* InSceneInspector.cd - Core inspection functionality.
-* InSceneInspectorEditor.cd - Custome Unity Editor formatting.  
-* ScrollRect2.cd - Extention to UnityEngine.UI.ScrollRect with the added functionality of saving scroll position when the scroll rect height changes.
+* DropDownList.cs - Stores basice structure of list.
+* DropDownMenu.cs - Focus and contents functionality included in select object and component drop down lists.
+* InSceneInspector.cs - Core inspection functionality.
+* InSceneInspectorEditor.cs - Custome Unity Editor formatting.  
+* ScrollRect2.cs - Extention to UnityEngine.UI.ScrollRect with the added functionality of saving scroll position when the scroll rect height changes.
 
 ## Contributing
 
